@@ -1,6 +1,6 @@
 # get-os-name
 This is a very simple and small npm package that gives you the operating system name of a client. It has **no dependencies** and uses JavaScript and the 
-Navigator Web API.
+Navigator Web API, which has [wide browser support](https://caniuse.com/mdn-api_navigator).
 
 ## Important
 To be more specific, this package uses [navigator.userAgent](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent). Keep in mind that browser users can change 
