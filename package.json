@@ -1,0 +1,32 @@
+{
+  "name": "get-os-name",
+  "version": "1.0.0",
+  "description": "Get the operating system name with JavaScript and the Navigator Web API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xulww/get-os-name.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "operating",
+    "system",
+    "operating system",
+    "os",
+    "name",
+    "navigator",
+    "api",
+    "browser",
+    "web"
+  ],
+  "author": "xulw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xulww/get-os-name/issues"
+  },
+  "homepage": "https://github.com/xulww/get-os-name#readme"
+}
