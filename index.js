@@ -29,4 +29,46 @@ function getOperatingSystemName() {
   return operatingSystem;
 }
 
-module.exports = getOperatingSystemName;
+export function isUNIX() {
+  const osName = getOperatingSystemName();
+
+  if (osName === "Unix") return true;
+  return false;
+}
+
+export function isWindows() {
+  const osName = getOperatingSystemName();
+
+  if (osName === "Windows") return true;
+  return false;
+}
+
+export function isMacOS() {
+  const osName = getOperatingSystemName();
+
+  if (osName === "macOS") return true;
+  return false;
+}
+
+export function isLinux() {
+  const osName = getOperatingSystemName();
+
+  if (osName === "Linux") return true;
+  return false;
+}
+
+export function isAndroid() {
+  const osName = getOperatingSystemName();
+
+  if (osName === "Android") return true;
+  return false;
+}
+
+export function isIOS() {
+  const osName = getOperatingSystemName();
+
+  if (osName === "iOS") return true;
+  return false;
+}
+
+export default getOperatingSystemName;

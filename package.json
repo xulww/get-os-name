@@ -1,10 +1,11 @@
 {
+  "type": "module",
   "name": "get-os-name",
   "version": "1.0.0",
   "description": "Get the operating system name with JavaScript and the Navigator Web API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./tests/script.js"
   },
   "repository": {
     "type": "git",
