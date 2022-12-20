@@ -22,7 +22,8 @@
     "navigator",
     "api",
     "browser",
-    "web"
+    "web",
+    "client"
   ],
   "author": "xulw",
   "license": "MIT",
