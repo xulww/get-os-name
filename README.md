@@ -42,3 +42,5 @@ const isOSNameLinux = isLinux()
 const isOSNameAndroid = isAndroid()
 const isOSNameIOS = isIOS()
 ```
+[Demo](https://codesandbox.io/s/get-os-name-example-6ccr13)
+
