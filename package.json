@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "get-os-name",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get the operating system name of a client with JavaScript and the Navigator Web API",
   "main": "index.js",
   "scripts": {
